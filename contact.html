@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#BF2024">
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/png">
+    <title>CGI - Contact</title>
+    <!-- <link rel="" href=""> ico. -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="./scripts/aos.js"></script>
+</head>
+
+<body>
+    <!-- header starts -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" srcset=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="menu-item active">
+                            <a href="index.html">Home </a>
+                        </li>
+                        <li class="menu-item menu-item-has-children ">
+                            <a href="about.html">About Us</a>
+                            <ul class="sub-menu ">
+                                <li><a href="woman.html">Woman Empowerment</a></li>
+                                <li><a href="event.html">Events</a></li>
+                                <li><a href="webinar.html">Webinar</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Leadership</a>
+                            <ul class="sub-menu ">
+                                <li><a href="leadership.html">Chairman</a></li>
+                                <li><a href="leadership-president.html">President</a></li>
+                                <li><a href="leadership-director.html">Director</a></li>
+                                <li><a href="council-of-innovators.html">Council of Innovator</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="partners.html">Partners & Associates</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="global-chapters.html">Global Chapters</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">More </a>
+                            <ul class="sub-menu ">
+                                <li><a href="economic-council.html">Economic Council</a></li>
+                                <li><a href="ipr-council.html">IPR Council</a></li>
+                                <li><a href="compliance-council.html">Compliance Council</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header finish -->
+
+    <section class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="red-a" href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+        </nav>
+    </section>
+
+    <section class="pb-5">
+        <div class="container">
+            <div class="row  flex-column-reverse flex-md-row">
+                <div class="col-sm-6 text-vertical">
+                    <h2 data-aos="fade-zoom-in" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="1000" class="h2-bold mobile-center">Contact</h2>
+                    <p data-aos="fade-zoom-in" data-aos-offset="100" data-aos-easing="ease-in" data-aos-duration="600" class="lead mt-3 mobile-center">
+                        You may have questions. Let us answer them.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <!-- <img class="img-fluid" src="./images/contact.jpg" alt=""> -->
+                    <img class="img-fluid" src="./images/gif/ActiveSupport.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 mb-5">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-duration="600" class="container">
+            <form action="mail.php" method="POST" enctype="multipart/form-data">
+
+                <h5 class="h2-bold">Just fill this form.</h5>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <p class="form-head">Your Name</p>
+                            <input type="text" class="form-control" placeholder="Name" name="name" required>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <p class="form-head">Your Email</p>
+                            <input type="email" class="form-control" placeholder="contact@cgiconnect.com" name="email" required>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <p class="form-head">Your Mobile Number</p>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="+91-9955500000" value="+91-" name="mobile" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <p class="form-head">Your Message</p>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="message" required placeholder="Enter your message here"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input style="border-color: #ffffff; border: 2px; color: #ffffff !important;" type="submit" value="Submit" class="btn btn-primary btn-primary-contact btn-block">
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <section class="accordion-section clearfix mt-4 mb-5" aria-label="Question Accordions">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-duration="600" class="container">
+            <h2 class="h2-bold mb-4 back-red">Frequently Asked Questions</h2>
+
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                        <h5 class="panel-title">
+                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                                Can I call the members of the association directly?
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                        <div class="panel-body px-3 mb-4">
+                            <p class="mob-p">Yes, within the working hours(09:00 AM-05:00PM as per IST) of the organization, you may call anyone on the weekdays.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                        <h5 class="panel-title">
+                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                Is CGI open 24/7?
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                        <div class="panel-body px-3 mb-4">
+                            <p class="mob-p">Yes, we are a global organization but our headquarters is in India which us open 09:00AM to 05:00PM on weekdays.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <!-- newsletter section starts -->
+            <div class="news-letter">
+                <div class="heading">Join Newsletter</div>
+                <div class="col-md-8 offset-md-2 float-left mt-4">
+                    <div class="row">
+                        <input type="text" class="col-md-9" name="" placeholder="Enter Email id here ..." id="">
+                        <button class="col-md-3">subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <!-- newsletter section starts -->
+            <div class="col-md-12 footer-section">
+                <div class="row">
+                    <div class="col-md-3"><img src="images/logo.png" alt="" srcset=""></div>
+                    <div class="col-md-5 pr-5">
+                        <div class="heading text-left">Our Office</div>
+                        <a href="https://g.page/cgiorganisation?share"> <address>
+                            Chandigarh University CU-TBI office, 
+                            Gharuan, Punjab 140413
+                        </address></a>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="heading text-left">Our Office</div>
+                        <address>
+                            You should connect social area
+                            for Any update
+                        </address>
+                        <p class="social-icon">
+                            <a href="https://m.facebook.com/TheCGIorg/"><i class="fab fa-facebook fa-1x"></i></a>
+                            <a href="http://twitter.com/thecgiorg"><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://www.instagram.com/thecgiorg/?hl=en"><i class="fab fa-instagram fa-1x"></i></a>
+                            <a href="http://bit.ly/CGI_LinkedIn"><i class="fab fa-linkedin-in fa-1x"></i></a>
+                            <a href="https://t.me/ConfederationofGlobalInnovators"><i class="fab fa-telegram fa-1x"></i></a>
+
+                            <a href="http://bit.ly/CGIYoutube"><i class="fab fa-youtube fa-1x"></i></a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        © Confederation of Global Innovators 2019 - 2020
+    </div>
+    <!-- footer section finish -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="js/slim.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/slim.js"><\/script>')
+    </script>
+    <script src="js/poper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/font-awesome.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/common.js"></script>
+
+</body>
+
+</html>
